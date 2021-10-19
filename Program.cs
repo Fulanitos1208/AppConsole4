@@ -8,11 +8,15 @@ namespace AppConsole4
         {
             celular[] a= new celular[3];
             for (int i = 0; i < a.Length; i++)
-            {
+             {
                 a[i] = new celular() ;
-                a[i].Nombre = "Rubi";
+                Console.WriteLine("Nombre del contacto");
+                a[i].Nombre ="";
+                a[i].Nombre = Console.ReadLine();
                 a[i].Lada = "+52";
-                a[i].Numero = "866-109-79-06";
+                Console.WriteLine("Numero de telefono");
+                a[i].Numero = "";
+                a[i].Numero = Console.ReadLine();
             }
             for (int i = 0; i < a.Length; i++)
             {
