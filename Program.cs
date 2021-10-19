@@ -10,11 +10,11 @@ namespace AppConsole4
             for (int i = 0; i < a.Length; i++)
              {
                 a[i] = new celular() ;
-                Console.WriteLine("Nombre del contacto");
-                a[i].Nombre ="";
+                Console.Write("Nombre del contacto: ");
+                a[i].Nombre =" ";
                 a[i].Nombre = Console.ReadLine();
                 a[i].Lada = "+52";
-                Console.WriteLine("Numero de telefono");
+                Console.Write("Numero de telefono: ");
                 a[i].Numero = "";
                 a[i].Numero = Console.ReadLine();
             }
